@@ -19,7 +19,7 @@ migration scripts.
          - ElasticSearch.postman_collection.json (Postman collection for testing the API endpoints)- src
      - src
       - main
-         - java/com/example/elastic/poc
+         - java/com/csmarton/elastic/poc
             - ElasticApplication.java (Main application class)
             - model/User.java (User model class)
      - resources

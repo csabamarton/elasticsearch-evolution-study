@@ -1,7 +1,7 @@
-package com.example.elastic.poc.controller;
+package com.csmarton.elastic.poc.controller;
 
-import com.example.elastic.poc.model.User;
-import com.example.elastic.poc.service.UserService;
+import com.csmarton.elastic.poc.model.User;
+import com.csmarton.elastic.poc.service.UserService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/users")
+@RequestMapping("api/elasticsearch")
 public class UserController {
     private final UserService userService;
 
@@ -23,7 +23,7 @@ public class UserController {
         return ResponseEntity.ok(users);
     }
 
-    @PostMapping
+    @PostMapping("/create")
     public ResponseEntity<User> createUser(@RequestBody User user) {
         User createdUser = userService.createUser(user);
         return ResponseEntity.status(HttpStatus.CREATED).body(createdUser);

@@ -8,7 +8,7 @@
         <version>2.5.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example</groupId>
+    <groupId>com.csmarton</groupId>
     <artifactId>elastic-poc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>elastic-poc</name>
@@ -46,6 +46,13 @@
             <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
             <version>3.1.1</version>
         </dependency>
+        <!--&lt;!&ndash; https://mvnrepository.com/artifact/org.springframework.data/spring-data-elasticsearch &ndash;&gt;
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-elasticsearch</artifactId>
+            <version>5.1.1</version>
+        </dependency>
+-->
 
 
 

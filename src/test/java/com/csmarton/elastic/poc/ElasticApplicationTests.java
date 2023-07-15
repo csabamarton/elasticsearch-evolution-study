@@ -1,4 +1,4 @@
-package com.example.elastic.poc;
+package com.csmarton.elastic.poc;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

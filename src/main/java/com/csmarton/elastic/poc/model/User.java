@@ -1,4 +1,4 @@
-package com.example.elastic.poc.model;
+package com.csmarton.elastic.poc.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
