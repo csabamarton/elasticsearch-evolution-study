@@ -1,0 +1,18 @@
+PUT /users-test
+Content-Type: application/json
+
+{
+  "mappings": {
+    "properties": {
+      "id": {
+        "type": "keyword"
+      },
+      "name": {
+        "type": "text"
+      },
+      "email": {
+        "type": "keyword"
+      }
+    }
+  }
+}

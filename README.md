@@ -99,4 +99,13 @@ docker-compose folder.
      }
    }
    ```
+
+4. The ElasticsearchEvolutionTest class in the test directory contains a test method named migrate_OK. This test ensures that the migration scripts are executed successfully. It sets up an instance of ElasticsearchEvolution with the specified configuration, including the locations of the migration scripts and the history index name. After executing the migration, it asserts that the number of successfully executed scripts is equal to 2.
+
+   To run the tests, you can execute the following command:
    
+   ```shell
+   mvn test
+   ```
+
+   If the migration scripts are executed successfully, the test should pass.

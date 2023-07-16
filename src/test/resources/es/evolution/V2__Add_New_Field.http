@@ -1,0 +1,10 @@
+PUT /users-test/_mapping
+Content-Type: application/json
+
+{
+  "properties": {
+    "age": {
+      "type": "integer"
+    }
+  }
+}
